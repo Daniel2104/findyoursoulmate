@@ -1,0 +1,408 @@
+body {
+    font-family: "Nutmeg";
+    flex-flow: row wrap;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+@font-face {
+    font-family: Nutmeg;
+    src: url("Nutmeg-Black.ttf");
+}
+
+.a {
+    fill: #676d72;
+    stroke: #676d73;
+}
+
+.nav-item {
+    color: #37aefd;
+}
+
+.nav-menu {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.pieDePagina {
+    width: 100%;
+    background-color: rgba(41, 41, 101, 0.5);
+    text-align: center;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    color: #fff;
+
+}
+
+div {
+    display: block;
+}
+
+
+.dXbdso {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 2em;
+    max-width: 180px;
+}
+
+@media screen and (min-width: 1000px) {
+
+    body {
+        flex-direction: column;
+    }
+
+
+    element.style {
+        z-index: auto;
+    }
+
+    @media (max-width: 1024px) {
+        .recuadro {
+            width: 75%;
+        }
+    }
+
+    .recuadro {
+        min-height: 68vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+        border-radius: 1em;
+        box-shadow: rgb(0 0 0 / 15%) 0px 3px 15px;
+        opacity: 1;
+        color: rgb(103, 109, 114);
+        font-size: 1.25em;
+        padding: 1.5em 10%;
+        z-index: 10;
+    }
+
+    .eNpfYQ {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .ikILnt {
+        -webkit-box-align: center;
+        align-items: center;
+        text-align: left;
+        width: 70%;
+        height: 190px;
+        background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+        box-shadow: rgb(0 0 0 / 10%) 0px 3px 8px;
+        border-radius: 25px;
+        opacity: 1;
+        padding: 0px 1em 1em;
+        margin-bottom: 5px;
+    }
+
+    .iRjbSD {
+        text-align: left;
+        color: rgb(55, 174, 254);
+    }
+
+    .bxYdi {
+        background-color: transparent;
+        height: 50px;
+        width: 50px;
+        border-style: none;
+        cursor: pointer;
+        align-self: center;
+    }
+
+    hoja de estilo de user-agent button:disabled {
+        background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+        color: -internal-light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+        border-color: -internal-light-dark(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3));
+    }
+
+
+    .hRsZed {
+        font: bold 36px Nutmeg;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        color: rgb(1, 93, 177);
+    }
+
+    .sYshS:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .sYshS {
+        height: 2em;
+        position: relative;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(1, 77, 152);
+        font-size: 1rem;
+        font-family: Nutmeg, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        border-radius: 0.5em;
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        outline: none;
+        border: none;
+        padding: 1.5em;
+        cursor: pointer;
+    }
+
+
+    .ijxwVR {
+        position: fixed;
+        text-decoration: none;
+        z-index: 15;
+        margin-top: 5px;
+        right: 5vw;
+        text-align: left;
+        font: bold 17px / 26px Nutmeg;
+        letter-spacing: 0px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(87, 187, 255);
+        border-radius: 24px;
+        opacity: 1;
+        padding: 5px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    hoja de estilo de user-agent a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+
+    .inferior {
+        flex-direction: column;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(250, 250, 250);
+    }
+}
+
+.titulo {
+    top: 106px;
+    left: 627px;
+    width: 666px;
+    height: 76px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 900 36px/40px Nutmeg;
+    letter-spacing: 0px;
+    color: #015DB1;
+    opacity: 1;
+}
+
+.telefono {
+    position: fixed;
+    text-decoration: none;
+    z-index: 15;
+    margin-top: 5px;
+    right: 5vw;
+    text-align: left;
+    font: bold 17px / 26px Nutmeg;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 187, 255);
+    border-radius: 24px;
+    opacity: 1;
+    padding: 5px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subtitulo {
+    top: 458px;
+    left: 614px;
+    width: 304px;
+    height: 34px;
+    /* UI Properties */
+    color: var(--unnamed-color-37aefe);
+    text-align: center;
+    font: normal normal bold 34px/105px Nutmeg;
+    letter-spacing: 0px;
+    color: #37AEFE;
+    opacity: 1;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: baseline;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.flecha {
+    overflow: hidden;
+    position: absolute;
+    pointer-events: none;
+    right: 0px;
+    transform: translateX(50%);
+}
+
+.flecha2 {
+    overflow: hidden;
+    position: absolute;
+    pointer-events: none;
+    top:auto;
+    left: -180px;
+    transform: translateX(50%);
+}
+
+.formato {
+    position: relative;
+    background: linear-gradient(white 50%, rgb(0, 50, 108) 50%);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.curp {
+    width: 100%;
+    padding-left: 2em;
+    height: 2em;
+    text-align: left;
+    font: 1em Montserrat;
+    letter-spacing: 2px;
+    color: rgb(153, 160, 163);
+    background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+    box-shadow: rgb(149 148 145 / 60%) 0px 0px 8px;
+    border: 0.5px solid rgb(208, 208, 208);
+    opacity: 1
+}
+
+.escribir {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+}
+
+.ingresar {
+    padding: 1em 0px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: baseline;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.CURP {
+    top: 622px;
+    left: 694px;
+    width: 223px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 20px/53px Montserrat;
+    letter-spacing: 2px;
+    color: #A6A6AF;
+    opacity: 1;
+}
+
+.placeholder {
+    font-family: "Nutmeg";
+}
+
+.g {
+    transform: translate(0.5, 0.5);
+}
+
+.consultar-curp {
+    text-decoration: none;
+    color: rgb(55, 174, 253);
+    font: normal normal bold 18px/70px Nutmeg;
+}
+
+.intruccion-curp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: baseline;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.intruccion {
+    text-align: left;
+}
+
+.punto {
+    position: absolute;
+    pointer-events: none;
+    left: 30px;
+    top: 70px;
+}
+
+.imagenes{
+    background-color: rgb(0, 50, 108);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 1.5em;
+    width: 100%;
+    overflow: hidden;
+}
+
+.div-imagenes{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: 0;
+}
+
+
